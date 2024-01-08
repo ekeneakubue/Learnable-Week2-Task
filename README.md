@@ -23,3 +23,14 @@ A Git rebase changes the base of the developer’s branch from one commit to ano
 ```
 git rebase main
 ```
+
+## Git Cherry-Pick
+Git Cherry-Pick is a powerful command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD. Cherry picking is the act of picking a commit from a branch and applying it to another. git cherry-pick can be useful for undoing changes. For example, say a commit is accidently made to the wrong branch. You can switch to the correct branch and cherry-pick the commit to where it should belong.
+
+#### Command for Git Cherry-pick
+```
+git cherry-pick commit-ref
+```
+` 
+Note: commit-ref is the commit reference. You can find a commit reference by using git log 
+`
