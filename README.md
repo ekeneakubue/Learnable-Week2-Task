@@ -10,3 +10,6 @@ Git is a version control system that allows developers to track changes in their
 - GitLab
 - BitBucket
 - OneDev
+
+## Difference Between Git Fetch and Git Pull
+The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
