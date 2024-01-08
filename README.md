@@ -5,3 +5,8 @@ The responsibility of the Version control system is to keep all the team members
 
 ## Difference Between Git and Github
 Git is a version control system that allows developers to track changes in their code. GitHub is a web-based hosting service for git repositories. In simple terms, you can use git without Github, but you cannot use GitHub without Git.
+
+## 3 Other GitHub Alternatives
+- GitLab
+- BitBucket
+- OneDev
