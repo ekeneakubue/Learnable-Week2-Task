@@ -13,3 +13,13 @@ Git is a version control system that allows developers to track changes in their
 
 ## Difference Between Git Fetch and Git Pull
 The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo. The git pull command does both.
+
+## Git Rebase
+Git Rebase is one of two Git utilities designed to integrate changes from one branch onto another. Rebasing is the process of combining or moving a sequence of commits on top of a new base commit. Git rebase is the linear process of merging.
+
+A Git rebase changes the base of the developer’s branch from one commit to another, so it looks like they have created their branch from a different commit. Internally, Git creates a new commit and applies it to the specified base. However, it's essential for everyone involved to understand that although the branch appears the same, it's made up of entirely new commits. When you perform a Git rebase, you are, in effect, rewriting history.
+
+#### Command for Git Rebase
+```
+git rebase main
+```
